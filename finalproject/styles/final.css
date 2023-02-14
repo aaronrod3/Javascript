@@ -1,0 +1,478 @@
+#content {
+    display: grid;
+    grid-template-rows: 4(1fr);
+    text-align: center;
+    justify-content: center;
+}
+
+#header {
+    grid-row: 1;
+}
+
+#main {
+    grid-row: 2;
+    grid-template-rows: 2(1fr);
+}
+
+.howtoscore {
+    font-size: 12px;
+    width: 80px;
+    height: 60px;
+    margin: 0px;
+}
+.box {
+    width: 80px;
+    height: 60px;
+    margin: 0px;
+}
+
+#upper {
+    grid-row: 1;
+    display: grid;
+    height: auto;
+    width: 250px;
+    grid-template-columns: 3(80px);
+    grid-template-rows: 10(60px);
+    border-style: solid;
+    border-width: thin;
+}
+
+#upperSec {
+    grid-column: 1;
+    grid-row: 1;
+    border-style: solid;
+    border-width: thin;
+}
+#hts{
+    grid-column: 2/3;
+    grid-row: 1;
+    border-style: solid;
+    border-width: thin;
+}
+#g1 {
+    grid-column: 3/4;
+    grid-row: 1;
+    border-style: solid;
+    border-width: thin;
+}
+#ace {
+    grid-column: 1;
+    grid-row: 2;
+    border-style: solid;
+    border-width: thin;
+}
+#two {
+    grid-column: 1;
+    grid-row: 3;
+    border-style: solid;
+    border-width: thin;
+}
+#three {
+    grid-column: 1;
+    grid-row: 4;
+    border-style: solid;
+    border-width: thin;
+}
+#four {
+    grid-column: 1;
+    grid-row: 5;
+    border-style: solid;
+    border-width: thin;
+}
+#five {
+    grid-column: 1;
+    grid-row: 6;
+    border-style: solid;
+    border-width: thin;
+}
+#six {
+    grid-column: 1;
+    grid-row: 7;
+    border-style: solid;
+    border-width: thin;
+}
+#totalscore {
+    grid-column: 1;
+    grid-row: 8;
+    border-style: solid;
+    border-width: thin;
+}
+#bonus {
+    grid-column: 1;
+    grid-row: 9;
+    border-style: solid;
+    border-width: thin;
+}
+#totalofuppersec {
+    grid-column: 1;
+    grid-row: 10;
+    border-style: solid;
+    border-width: thin;
+}
+#hts1 {
+    grid-column: 2/3;
+    grid-row: 2;
+    border-style: solid;
+    border-width: thin;
+}
+#hts2 {
+    grid-column: 2/3;
+    grid-row: 3;
+    border-style: solid;
+    border-width: thin;
+}
+#hts3 {
+    grid-column: 2/3;
+    grid-row: 4;
+    border-style: solid;
+    border-width: thin;
+}
+#hts4 {
+    grid-column: 2/3;
+    grid-row: 5;
+    border-style: solid;
+    border-width: thin;
+}
+#hts5 {
+    grid-column: 2/3;
+    grid-row: 6;
+    border-style: solid;
+    border-width: thin;
+}
+#hts6 {
+    grid-column: 2/3;
+    grid-row: 7;
+    border-style: solid;
+    border-width: thin;
+}
+#htsts {
+    grid-column: 2/3;
+    grid-row: 8;
+    border-style: solid;
+    border-width: thin;
+    background-color: black;
+}
+#htsb {
+    grid-column: 2/3;
+    grid-row: 9;
+    border-style: solid;
+    border-width: thin;
+}
+#htstsu {
+    grid-column: 2/3;
+    grid-row: 10;
+    border-style: solid;
+    border-width: thin;
+    background-color: black;
+}
+#aceg1 {
+    grid-column: 3/4;
+    grid-row: 2;
+    border-style: solid;
+    border-width: thin;
+}
+#twog1 {
+    grid-column: 3/4;
+    grid-row: 3;
+    border-style: solid;
+    border-width: thin;
+}
+#threeg1 {
+    grid-column: 3/4;
+    grid-row: 4;
+    border-style: solid;
+    border-width: thin;
+}
+#fourg1 {
+    grid-column: 3/4;
+    grid-row: 5;
+    border-style: solid;
+    border-width: thin;
+}
+#fiveg1 {
+    grid-column: 3/4;
+    grid-row: 6;
+    border-style: solid;
+    border-width: thin;
+}
+#sixg1 {
+    grid-column: 3/4;
+    grid-row: 7;
+    border-style: solid;
+    border-width: thin;
+}
+#totalscoreg1 {
+    grid-column: 3/4;
+    grid-row: 8;
+    border-style: solid;
+    border-width: thin;
+}
+#bonusupper {
+    grid-column: 3/4;
+    grid-row: 9;
+    border-style: solid;
+    border-width: thin;
+}
+#totalscoreofupperg1 {
+    grid-column: 3/4;
+    grid-row: 10;
+    border-style: solid;
+    border-width: thin;
+}
+#lower {
+    grid-row: 2;
+    display: grid;
+    height: auto;
+    width: 250px;
+    grid-template-columns: 8(60px);
+    grid-template-rows: 12(50px);
+    border-style: solid;
+    border-width: thin;
+}
+#lowerSec {
+    grid-row: 1;
+}
+#threeofKind {
+    grid-column: 1;
+    grid-row: 2;
+    border-style: solid;
+    border-width: thin;
+}
+#fourofKind {
+    grid-column: 1;
+    grid-row: 3;
+    border-style: solid;
+    border-width: thin;
+}
+#fh {
+    grid-column: 1;
+    grid-row: 4;
+    border-style: solid;
+    border-width: thin;
+}
+#ss {
+    grid-column: 1;
+    grid-row: 5;
+    border-style: solid;
+    border-width: thin;
+}
+#ls {
+    grid-column: 1;
+    grid-row: 6;
+    border-style: solid;
+    border-width: thin;
+}
+#yahtzee {
+    grid-column: 1;
+    grid-row: 7;
+    border-style: solid;
+    border-width: thin;
+}
+#chance {
+    grid-column: 1;
+    grid-row: 8;
+    border-style: solid;
+    border-width: thin;
+}
+#yahtzeeBonus {
+    grid-column: 1;
+    grid-row: 9;
+    border-style: solid;
+    border-width: thin;
+}
+#totallower {
+    grid-column: 1;
+    grid-row: 10;
+    border-style: solid;
+    border-width: thin;
+}
+#totalupper {
+    grid-column: 1;
+    grid-row: 11;
+    border-style: solid;
+    border-width: thin;
+}
+#grandtotal {
+    grid-column: 1;
+    grid-row: 12;
+    border-style: solid;
+    border-width: thin;
+}
+#hts3ok {
+    grid-column: 2;
+    grid-row: 2;
+    border-style: solid;
+    border-width: thin;
+}
+#hts4ok {
+    grid-column: 2;
+    grid-row: 3;
+    border-style: solid;
+    border-width: thin;
+}
+#htsfh {
+    grid-column: 2;
+    grid-row: 4;
+    border-style: solid;
+    border-width: thin;
+}
+#htsss {
+    grid-column: 2;
+    grid-row: 5;
+    border-style: solid;
+    border-width: thin;
+}
+#htsls {
+    grid-column: 2;
+    grid-row: 6;
+    border-style: solid;
+    border-width: thin;
+}
+#htsy {
+    grid-column: 2;
+    grid-row: 7;
+    border-style: solid;
+    border-width: thin;
+}
+#htsc {
+    grid-column: 2;
+    grid-row: 8;
+    border-style: solid;
+    border-width: thin;
+}
+#htsyb {
+    grid-column: 2;
+    grid-row: 9;
+    border-style: solid;
+    border-width: thin;
+    display: grid;
+    grid-template-rows: 2(30px);
+}
+#htsyb1 {
+    grid-row: 1;
+    margin: 0;
+    border-bottom-style: solid;
+    border-width: thin;
+}
+#htsyb2 {
+    grid-row: 2;
+    margin: 0;
+}
+#htstotallower {
+    grid-column: 2;
+    grid-row: 10;
+    border-style: solid;
+    border-width: thin;
+}
+#htstotalupper {
+    grid-column: 2;
+    grid-row: 11;
+    border-style: solid;
+    border-width: thin;
+}
+#htsgt {
+    grid-column: 2;
+    grid-row: 12;
+    border-style: solid;
+    border-width: thin;
+}
+#threeofkindg1 {
+    grid-column: 3;
+    grid-row: 2;
+    border-style: solid;
+    border-width: thin;
+}
+#fourofkindg1 {
+    grid-column: 3;
+    grid-row: 3;
+    border-style: solid;
+    border-width: thin;
+}
+#fhg1 {
+    grid-column: 3;
+    grid-row: 4;
+    border-style: solid;
+    border-width: thin;
+}
+#ssg1 {
+    grid-column: 3;
+    grid-row: 5;
+    border-style: solid;
+    border-width: thin;
+}
+#lsg1 {
+    grid-column: 3;
+    grid-row: 6;
+    border-style: solid;
+    border-width: thin;
+}
+#yg1 {
+    grid-column: 3;
+    grid-row: 7;
+    border-style: solid;
+    border-width: thin;
+}
+#cg1 {
+    grid-column: 3;
+    grid-row: 8;
+    border-style: solid;
+    border-width: thin;
+}
+#ybg1 {
+    grid-column: 3;
+    grid-row: 9;
+    border-style: solid;
+    border-width: thin;
+    display: grid;
+    grid-template-columns: 3(1/3);
+    grid-template-rows: 2(1fr);
+}
+#yb1g1 {
+    grid-column: 1;
+    grid-row: 1;
+    height: 20px;
+    width: 20px;
+}
+#yb2g1 {
+    grid-column: 2;
+    grid-row: 1;
+    height: 20px;
+    width: 20px;
+}
+#yb3g1 {
+    grid-column: 3;
+    grid-row: 1;
+    height: 20px;
+    width: 20px;
+}
+#scoreper {
+    grid-column: 1/4;
+    grid-row: 2;
+    height: 20px;
+    width: 60px;
+    margin: 0;
+}
+#tlg1 {
+    grid-column: 3;
+    grid-row: 10;
+    border-style: solid;
+    border-width: thin;
+}
+#tug1 {
+    grid-column: 3;
+    grid-row: 11;
+    border-style: solid;
+    border-width: thin;
+}
+#gtg1 {
+    grid-column: 3;
+    grid-row: 12;
+    border-style: solid;
+    border-width: thin;
+}
+
+#footer {
+    grid-row: 3;
+    margin-top: 50px;    
+    height: 100px;
+}
